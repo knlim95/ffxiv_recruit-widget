@@ -1,0 +1,74 @@
+/* FFXIV - Recruits Needed Widget
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Made by: Skylix Azorus */
+/* Made for: Hephaestus Familia FC */
+
+/* Module-Specific
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.background-image {
+    background: url(https://cdn.guildwork.net/files/529f138ec16e4d36f91342f4/558dde7f002aa826379de9ea.png) no-repeat left top;
+    height: 390px;
+    width: 100%;
+    z-index: -1;
+}
+
+h3 {
+    margin: 0 0 0 50px;
+    padding: 0;
+    font-size: 14px;
+    float: left;
+    margin-left: 60px;
+    color: #ddd;
+    text-shadow: 1px 2px 5px #111, 0 0 8px #000, 0 0 10px #000;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+/* Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.class {
+    height: 30px;
+    padding: 0;
+    max-width: 300px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.class .pld { background-position: 5px 0 }
+.class .drk { background-position: 5px -30px }
+.class .war { background-position: 5px -60px }
+.class .whm { background-position: 5px -90px }
+.class .ast { background-position: 5px -120px }
+.class .sch { background-position: 5px -150px }
+.class .brd { background-position: 5px -180px }
+.class .blm { background-position: 5px -210px }
+.class .drg { background-position: 5px -240px }
+.class .mnk { background-position: 5px -270px }
+.class .nin { background-position: 5px -300px }
+.class .smn { background-position: 5px -330px }
+.class .mch { background-position: 5px -360px }
+
+/* Indicators
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.indicator {
+    margin: 5px 0 0 30px;
+    width: 12px;
+    height: 12px;
+    border-radius: 80%;
+}
+
+.h .indicator {
+    background-color: green;
+    box-shadow: #000 0 -1px 7px 1px,inset #460 0 -1px 9px,#7d0 0 2px 12px;
+}
+
+.m .indicator {
+    background-color: yellow;
+    box-shadow: #000 0 -1px 7px 1px,inset #660 0 -1px 9px,#dd0 0 2px 12px;
+}
+
+.l .indicator {
+    background-color: red;
+    box-shadow: #000 0 -1px 7px 1px,inset #600 0 -1px 9px,#f00 0 2px 12px;
+}
