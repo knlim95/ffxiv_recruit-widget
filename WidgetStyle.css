@@ -1,54 +1,62 @@
-/* FFXIV - Recruits Needed Widget */
+/* FFXIV - Recruits Needed Widget
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Made by: Skylix Azorus */
 /* Made for: Hephaestus Familia FC */
 
-.recruit h3 {
-    margin:0; 
-    padding:0; 
-    font-size:14px;
+
+/* Recruits
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.recruits h3 {
+    margin: 0; 
+    padding: 0; 
+    font-size: 14px;
 }
 
-.recruit .class {
+.recruits .class {
     background: #0e0e0e url(https://cdn.guildwork.net/files/529f138ec16e4d36f91342f4/558dde7f002aa826379de9ea.png) no-repeat right top;
-    height:35px;
-    padding:3px 4px;
+    height: 35px;
+    padding: 3px 4px;
     -webkit-transition: all 0.6s ease; /* Firefox */
     -moz-transition: all 0.6s ease; /* WebKit */
     -o-transition: all 0.6s ease; /* Opera */
     transition: all 0.6s ease; /* Standard */
-    clear:both;
-    border-bottom:solid 5px #330D0D;
-    max-width:300px;
+    clear: both;
+    border-bottom: solid 5px #330D0D;
+    max-width: 300px;
     margin: 0 auto;
 }
 
-.class.pld {background-position:0 0}
-.class.drk {background-position:0px -30px}
-.class.war {background-position:0px -60px}
-.class.whm {background-position:0px -90px}
-.class.ast {background-position:0px -120px}
-.class.sch {background-position:0px -150px}
-.class.brd {background-position:0px -180px}
-.class.blm {background-position:0px -210px}
-.class.drg {background-position:0px -240px}
-.class.mnk {background-position:0px -270px}
-.class.nin {background-position:0px -300px}
-.class.smn {background-position:0px -330px}
-.class.mch {background-position:0px -360px}
-
-.recruit .class h3 {
-    margin:0;
+.recruits .class h3 {
+    margin: 0;
     float: left;
     margin-left: 50px;
-    color:#ddd;
-    text-shadow:1px 2px 5px #111, 0 0 8px #000, 0 0 10px #000;
-    text-transform:uppercase;
+    color: #ddd;
+    text-shadow: 1px 2px 5px #111, 0 0 8px #000, 0 0 10px #000;
+    text-transform: uppercase;
     line-height: 24px;
 }
 
+/* Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.class.pld {background-position: 0 0}
+.class.drk {background-position: 0px -30px}
+.class.war {background-position: 0px -60px}
+.class.whm {background-position: 0px -90px}
+.class.ast {background-position: 0px -120px}
+.class.sch {background-position: 0px -150px}
+.class.brd {background-position: 0px -180px}
+.class.blm {background-position: 0px -210px}
+.class.drg {background-position: 0px -240px}
+.class.mnk {background-position: 0px -270px}
+.class.nin {background-position: 0px -300px}
+.class.smn {background-position: 0px -330px}
+.class.mch {background-position: 0px -360px}
+
+/* Indicator
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .indicator {
-    margin:5px 0px 0px 30px;
+    margin: 5px 0px 0px 30px;
     width: 12px;
     height: 12px;
     border-radius: 80%;
@@ -85,7 +93,8 @@
     animation: blinkGreen 3s infinite;
 }
 
-
+/* Keyframes of Indicators
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @-webkit-keyframes blinkRed {
     from { background-color: #F00; }
     50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 1) 0 2px 0; }
@@ -177,12 +186,14 @@
 }
 
 .paused {
-    -webkit-animation-play-state:paused !important;
-    -moz-animation-play-state:paused !important;
-    -o-animation-play-state:paused !important; 
-    animation-play-state:paused !important;
+    -webkit-animation-play-state: paused !important;
+    -moz-animation-play-state: paused !important;
+    -o-animation-play-state: paused !important; 
+    animation-play-state: paused !important;
 }
 
+/* Legend of Indicators
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .legend {
     width: 280px;
     margin: 0 auto;
@@ -190,17 +201,19 @@
 
 .legend .indicator {
     margin: 5px;
-    float: left
+    float: left;
 }
 
 .legend span {
-    font-size:10px
+    font-size: 10px;
 }
 
 .legend > div {
-    float:left
+    float: left;
 }
 
+/* Text Modifications
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .reg-link {
     clear: both;
     text-align: center;
