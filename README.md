@@ -5,7 +5,7 @@ Informs Potential Recruits to the FFXIV Free Company which classes they are look
 ![recruit-widget_v1](/img/recruit-widget_v1.png "recruit-widget_v1")
 
 ## Status:
-** Working **
+**Working**
 
 ## Changelog:
 1/31/17 - v1: First iteration of the widget
