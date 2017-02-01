@@ -7,7 +7,7 @@ Original: https://gist.github.com/IrealiTY/9270b7e224496c87e5e5
 ## Status:
 Working
 
-![recruit-widget_v1](/recruit-widget_v1.png "recruit-widget_v1")
+![recruit-widget_v1](/img/recruit-widget_v1.png "recruit-widget_v1")
 
 ## Changelog:
 
