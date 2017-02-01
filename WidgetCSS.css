@@ -20,22 +20,19 @@ h3 {
     float: left;
     margin-left: 30px;
     color: #ddd;
-    text-shadow: 1px 2px 5px #111, 0 0 8px #000, 0 0 10px #000;
     text-transform: uppercase;
     line-height: 30px;
 }
 
-h4 {
-    /*margin: 0 0 0 50px;*/
+p {
+    text-align: left;
+    margin: 3px;
     padding: 0;
     font-size: 14px;
-    float: left;
-    /*margin-left: 30px;*/
-    color: #ddd;
+}
+
+.txt-shadow {
     text-shadow: 1px 2px 5px #111, 0 0 8px #000, 0 0 10px #000;
-    text-transform: uppercase;
-    line-height: 30px;
-    background-position: 0px -390px;
 }
 
 /* Classes
@@ -45,7 +42,6 @@ h4 {
     padding: 0;
     max-width: 300px;
     clear: both;
-    /*margin: 0 auto;*/
 }
 
 .class .pld { background-position: 5px 0 }
@@ -64,44 +60,12 @@ h4 {
 
 .high {
     color: #00FF00;
-    /*text-shadow: #000 0 -1px 7px 1px,inset #460 0 -1px 9px,#7d0 0 2px 12px;*/
 }
 
 .medium {
     color: #FFFF00;
-    /*text-shadow: #000 0 -1px 7px 1px,inset #660 0 -1px 9px,#dd0 0 2px 12px;*/
 }
 
 .low {
     color: #FF0000;
-    /*text-shadow: #000 0 -1px 7px 1px,inset #600 0 -1px 9px,#f00 0 2px 12px;*/
 }
-
-/* Indicators
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.indicator {
-    margin: 5px 0 0 30px;
-    width: 12px;
-    height: 12px;
-    border-radius: 80%;
-}
-
-.h .indicator {
-    background-color: #00FF00;
-    box-shadow: #000 0 -1px 7px 1px,inset #460 0 -1px 9px,#7d0 0 2px 12px;
-}
-
-.m .indicator {
-    background-color: #FFFF00;
-    box-shadow: #000 0 -1px 7px 1px,inset #660 0 -1px 9px,#dd0 0 2px 12px;
-}
-
-.l .indicator {
-    background-color: #FF0000;
-    box-shadow: #000 0 -1px 7px 1px,inset #600 0 -1px 9px,#f00 0 2px 12px;
-}
-
-.legend {  width: 280px;  margin: 0 auto;}
-.legend .indicator{ margin: 5px; float: left}
-.legend span {font-size:10px}
-.legend > div {float:left}
